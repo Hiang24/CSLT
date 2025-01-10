@@ -1,0 +1,5 @@
+chuoi_input=input()
+output1=chuoi_input.lower()
+output2=chuoi_input.upper()
+print(output1)
+print(output2)

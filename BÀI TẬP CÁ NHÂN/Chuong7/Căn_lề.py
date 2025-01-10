@@ -1,0 +1,13 @@
+mat_hang1= input("Order 1: ")
+so_luong1=int(input("So luon: "))
+mat_hang2= input("Order 2: ")
+so_luong2=int(input("So luong: "))
+mat_hang3= input("Order 3: ")
+so_luong3=int(input("So luong: "))
+mat_hang4= input("Order 4: ")
+so_luong4=int(input("So luong: "))
+
+print(mat_hang1.ljust(20,'.') + str(so_luong1).rjust(5))
+print(mat_hang2.ljust(20,'.') + str(so_luong2).rjust(5))
+print(mat_hang3.ljust(20,'.') + str(so_luong3).rjust(5))
+print(mat_hang4.ljust(20,'.') + str(so_luong4).rjust(5))
