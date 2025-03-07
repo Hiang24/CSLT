@@ -18,7 +18,8 @@ def giaipt(a,b,c):
             x2=(-b - math.sqrt(d))/(2*a)
             return f'Phuong trinh co hai nghiem\nx1={x1}\nx2={x2}'
 def inkq(kq):
-    print(giaipt(a,b,c))  
-    a,b,c=nhap()
-    kq=giaipt(a,b,c)
-    inkq(kq)
+    print(giaipt(a,b,c))
+      
+a,b,c=nhap()
+kq=giaipt(a,b,c)
+inkq(kq)

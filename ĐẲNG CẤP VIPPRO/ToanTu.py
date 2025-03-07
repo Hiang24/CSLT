@@ -1,22 +1,14 @@
-while True:
-    a = float(input('a='))
-    b = float(input('b='))
-    toan_tu = input('Toan tu:')
+# n = int(input('n='))
+# if 0 <= n <= 9999:
+#     dem = 0
+#     for i in str(n): #234
+#         dem += 1
+#     print(dem)
 
-    if toan_tu == '+':
-        result = a + b
-        print(f'{a}+{b}={result}')
-    elif toan_tu == '-':
-        result = a - b
-        print(f'{a}-{b}={result}')
-    elif toan_tu == '*':
-        result = a * b
-        print(f'{a}*{b}={result}')
-    elif toan_tu == '/':
-        if b != 0:
-            result = a / b
-            print(f'{a}/{b}={result}')
-            
-    tiep_tuc = input('Tiep tuc:')
-    if tiep_tuc == 'T' or tiep_tuc == 't':
-        break
+
+name = 'ABC'
+dem = 0
+for i in name:
+    print(i)
+    dem = dem + 1
+print(dem)
