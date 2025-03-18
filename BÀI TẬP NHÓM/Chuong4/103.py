@@ -4,7 +4,7 @@ def ChonNgay(ngay,thang,nam):
         kq=True
         return kq
 def MagicDate():
-    for nam in range(1901,2001):
+    for nam in range(1901,2000):
         for thang in range(1,13):
             for ngay in range(1,NhapNgayThang(thang,nam)):
                 if ChonNgay(ngay,thang,nam):
