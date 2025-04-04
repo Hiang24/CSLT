@@ -1,22 +1,12 @@
-n=int(input('n = '))
-
+n = int(input('n = '))
 A = list(map(int, input().split()))
 
-count_max = 0
+count_dict = {}
+for num in A:
+    count_dict[num] = count_dict.get(num, 0) + 1
 
-if len(A) == n:
+max_count = max(count_dict.values())
+result = [num for num, count in count_dict.items() if count == max_count]
 
-    for i in A:
-        count = A.count(i)
-        if count > count_max:
-            count_max = count
-
-    result = []
-    for i in A:
-        if A.count(i) == count_max and i not in result:
-            result.append(i)
-
-    result.sort()
-
-    for i in result:
-        print(i,end=' ')
+result.sort()
+print(*result)

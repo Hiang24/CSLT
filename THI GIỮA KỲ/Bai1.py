@@ -1,3 +1,10 @@
+"""
+Đề bài: Nhập vào số nguyên n (1 ≤ n ≤ 50). In ra n số nguyên tố đầu tiên, các số cách nhau bởi dấu phẩy và khoảng trắng.
+Ví dụ:
+- Input: 5
+- Output: 2, 3, 5, 7, 11
+"""
+
 n=int(input())
 dem = 0 #Đếm số nguyên tố
 if 1<=n<=50: #Chọn vùng của số n

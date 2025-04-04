@@ -1,5 +1,8 @@
 def Nhap():
     n = int(input('n = '))
+    if n >= 20:
+        print('Bạn phải nhập n bé hơn 20')
+        return None
     return n
 
 def LaSNT(i):

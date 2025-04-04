@@ -1,3 +1,13 @@
+"""
+Đề bài: Tính lương của nhân viên dựa trên các thông số sau:
+- Nhập lương cơ bản (≤ 1000)
+- Nhập số giờ làm việc (≤ 30000)
+- Nhập loại thuế (A, B, C, D, E) với tỷ lệ thuế tương ứng (0%, 10%, 20%, 29%, 35%)
+- Nhập có đóng góp (y/n) - nếu có thì cộng thêm 10
+
+Công thức: Lương = Lương cơ bản × Số giờ + Tiền thuế + (10 nếu có đóng góp)
+"""
+
 luong = float(input())
 sogio = float(input())
 thue = input()
